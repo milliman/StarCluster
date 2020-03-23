@@ -138,6 +138,20 @@ INSTANCE_TYPES = {
     'r3.2xlarge': ['x86_64'],
     'r3.4xlarge': ['x86_64'],
     'r3.8xlarge': ['x86_64'],
+    'r4.large': ['x86_64'],
+    'r4.xlarge': ['x86_64'],
+    'r4.2xlarge': ['x86_64'],
+    'r4.4xlarge': ['x86_64'],
+    'r4.8xlarge': ['x86_64'],
+    'r4.16xlarge': ['x86_64'],
+    'r5.large': ['x86_64'],
+    'r5.xlarge': ['x86_64'],
+    'r5.2xlarge': ['x86_64'],
+    'r5.4xlarge': ['x86_64'],
+    'r5.8xlarge': ['x86_64'],
+    'r5.12xlarge': ['x86_64'],
+    'r5.16xlarge': ['x86_64'],
+    'r5.24xlarge': ['x86_64'],
     'cc1.4xlarge': ['x86_64'],
     'cc2.8xlarge': ['x86_64'],
     'cg1.4xlarge': ['x86_64'],
@@ -156,6 +170,14 @@ INSTANCE_TYPES = {
     'c4.2xlarge': ['x86_64'],
     'c4.4xlarge': ['x86_64'],
     'c4.8xlarge': ['x86_64'],
+    'c5.large': ['x86_64'],
+    'c5.xlarge': ['x86_64'],
+    'c5.2xlarge': ['x86_64'],
+    'c5.4xlarge': ['x86_64'],
+    'c5.9xlarge': ['x86_64'],
+    'c5.12xlarge': ['x86_64'],
+    'c5.18xlarge': ['x86_64'],
+    'c5.24xlarge': ['x86_64'],
     'i2.xlarge': ['x86_64'],
     'i2.2xlarge': ['x86_64'],
     'i2.4xlarge': ['x86_64'],
@@ -178,8 +200,27 @@ CLUSTER_GPU_TYPES = ['g2.2xlarge', 'g2.8xlarge', 'cg1.4xlarge']
 
 CLUSTER_HIMEM_TYPES = ['cr1.8xlarge']
 
-HIMEM_TYPES = ['r3.large', 'r3.xlarge', 'r3.2xlarge', 'r3.4xlarge',
-               'r3.8xlarge']
+HIMEM_TYPES = [
+    'r3.large',
+    'r3.xlarge',
+    'r3.2xlarge',
+    'r3.4xlarge',
+    'r3.8xlarge',
+    'r4.large',
+    'r4.xlarge',
+    'r4.2xlarge',
+    'r4.4xlarge',
+    'r4.8xlarge',
+    'r4.16xlarge',
+    'r5.large',
+    'r5.xlarge',
+    'r5.2xlarge',
+    'r5.4xlarge',
+    'r5.8xlarge',
+    'r5.12xlarge',
+    'r5.16xlarge',
+    'r5.24xlarge',
+    ]
 
 HI_IO_TYPES = ['hi1.4xlarge']
 
@@ -188,9 +229,27 @@ HI_STORAGE_TYPES = ['hs1.8xlarge']
 M3_COMPUTE_TYPES = ['c3.large', 'c3.xlarge', 'c3.2xlarge', 'c3.4xlarge',
                     'c3.8xlarge']
 
-M4_COMPUTE_TYPES = ['c4.large', 'c4.xlarge', 'c4.2xlarge', 'c4.4xlarge',
-                    'c4.8xlarge', 'm4.large', 'm4.xlarge', 'm4.2xlarge',
-                    'm4.4xlarge', 'm4.10xlarge', 'm4.16xlarge']
+M4_COMPUTE_TYPES = [
+    'c4.large',
+    'c4.xlarge',
+    'c4.2xlarge',
+    'c4.4xlarge',
+    'c4.8xlarge',
+    'm4.large',
+    'm4.xlarge',
+    'm4.2xlarge',
+    'm4.4xlarge',
+    'm4.10xlarge',
+    'm4.16xlarge',
+    'c5.large',
+    'c5.xlarge',
+    'c5.2xlarge',
+    'c5.4xlarge',
+    'c5.9xlarge',
+    'c5.12xlarge',
+    'c5.18xlarge',
+    'c5.24xlarge',
+]
 
 I2_STORAGE_TYPES = ['i2.xlarge', 'i2.2xlarge', 'i2.4xlarge', 'i2.8xlarge']
 
